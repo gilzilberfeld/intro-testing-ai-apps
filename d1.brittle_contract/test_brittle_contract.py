@@ -9,12 +9,10 @@ sample_endpoint = {
 }
 
 def test_get_testing_suggestions_returns_exactly_five_suggestions():
-    print("\n--- Running the Brittle Contract Test ---")
-
     suggestions = agent.get_testing_suggestions(sample_endpoint)
+    assert len(suggestions) == 5
 
     print(f"AI returned {len(suggestions)} suggestions:")
     for i, s in enumerate(suggestions, 1):
         print(f"  {i}. {s}")
 
-    assert len(suggestions) == 5
