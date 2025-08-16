@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ed93b62-8c15-481b-8ca4-cdffb926d090" name="Changes" comment="test 7.">
-      <change afterPath="$PROJECT_DIR$/d8.golden_dataset/golden_dataset.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/d8.golden_dataset/test_golden_dataset.py" afterDir="false" />
+    <list default="true" id="9ed93b62-8c15-481b-8ca4-cdffb926d090" name="Changes" comment="test 8.">
+      <change afterPath="$PROJECT_DIR$/d9.diversity/test_diversity.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +40,7 @@
     "Python tests.Python tests for d4_resilient_properties.test_resilient_properties.test_get_testing_suggestions_has_good_properties.executor": "Run",
     "Python tests.Python tests for test_advanced_content.test_advanced_content_validation.executor": "Run",
     "Python tests.Python tests for test_brittle_contract.test_get_testing_suggestions_returns_exactly_five_suggestions.executor": "Run",
+    "Python tests.Python tests for test_diversity.test_more_diversity.executor": "Run",
     "Python tests.Python tests for test_golden_dataset.test_suggestions_meet_golden_dataset_benchmark.executor": "Run",
     "Python tests.Python tests for test_plumbing.test_plumbing_handles_api_error_gracefully.executor": "Run",
     "Python tests.Python tests for test_plumbing.test_plumbing_handles_garbage_response.executor": "Run",
@@ -64,7 +64,7 @@
       <recent name="C:\GitHub\Webinars\intro-testing-ai-apps\d1.brittle_contract" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_golden_dataset.test_suggestions_meet_golden_dataset_benchmark">
+  <component name="RunManager" selected="Python tests.Python tests for test_diversity.test_more_diversity">
     <configuration name="Python tests for test_advanced_content.test_advanced_content_validation" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="intro-testing-ai-apps" />
       <option name="ENV_FILES" value="" />
@@ -80,7 +80,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_brittle_contract.test_get_testing_suggestions_returns_exactly_five_suggestions" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_diversity.test_more_diversity" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="intro-testing-ai-apps" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -91,7 +91,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_brittle_contract.test_get_testing_suggestions_returns_exactly_five_suggestions&quot;" />
+      <option name="_new_target" value="&quot;test_diversity.test_more_diversity&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -142,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_diversity.test_more_diversity" />
         <item itemvalue="Python tests.Python tests for test_golden_dataset.test_suggestions_meet_golden_dataset_benchmark" />
         <item itemvalue="Python tests.Python tests for test_advanced_content.test_advanced_content_validation" />
         <item itemvalue="Python tests.Python tests for test_sanity_check.test_structured_suggestions_have_relevant_content" />
         <item itemvalue="Python tests.Python tests for test_structured_response.test_get_structured_suggestions_has_valid_schema" />
-        <item itemvalue="Python tests.Python tests for test_brittle_contract.test_get_testing_suggestions_returns_exactly_five_suggestions" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +245,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755355428323</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="test 8.">
+      <option name="closed" value="true" />
+      <created>1755355990174</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1755355990174</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -258,6 +266,7 @@
     <MESSAGE value="test 5. some refactoring" />
     <MESSAGE value="test 6." />
     <MESSAGE value="test 7." />
-    <option name="LAST_COMMIT_MESSAGE" value="test 7." />
+    <MESSAGE value="test 8." />
+    <option name="LAST_COMMIT_MESSAGE" value="test 8." />
   </component>
 </project>
