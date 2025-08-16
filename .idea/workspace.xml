@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ed93b62-8c15-481b-8ca4-cdffb926d090" name="Changes" comment="test 10.">
-      <change afterPath="$PROJECT_DIR$/d11.the_judge/test_the_judge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="9ed93b62-8c15-481b-8ca4-cdffb926d090" name="Changes" comment="test 11." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -272,7 +269,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755357645057</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="test 11.">
+      <option name="closed" value="true" />
+      <created>1755358192975</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1755358192975</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -288,6 +293,7 @@
     <MESSAGE value="test 8." />
     <MESSAGE value="test 9." />
     <MESSAGE value="test 10." />
-    <option name="LAST_COMMIT_MESSAGE" value="test 10." />
+    <MESSAGE value="test 11." />
+    <option name="LAST_COMMIT_MESSAGE" value="test 11." />
   </component>
 </project>
