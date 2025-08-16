@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ed93b62-8c15-481b-8ca4-cdffb926d090" name="Changes" comment="pytest runs from cli">
-      <change afterPath="$PROJECT_DIR$/d2.scaffolding/test_scaffolding.py" afterDir="false" />
+    <list default="true" id="9ed93b62-8c15-481b-8ca4-cdffb926d090" name="Changes" comment="2nd test">
+      <change afterPath="$PROJECT_DIR$/d3.plumbing/test_plumbing.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/d1.brittle_contract/test_brittle_contract.py" beforeDir="false" afterPath="$PROJECT_DIR$/d1.brittle_contract/test_brittle_contract.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIAnalysisAgent.py" beforeDir="false" afterPath="$PROJECT_DIR$/APIAnalysisAgent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d2.scaffolding/test_scaffolding.py" beforeDir="false" afterPath="$PROJECT_DIR$/d2.scaffolding/test_scaffolding.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +41,10 @@
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "Python tests.Python tests for test_brittle_contract.test_get_testing_suggestions_returns_exactly_five_suggestions.executor": "Run",
+    "Python tests.Python tests for test_plumbing.test_plumbing_handles_api_error_gracefully.executor": "Debug",
+    "Python tests.Python tests for test_plumbing.test_plumbing_handles_garbage_response.executor": "Run",
     "Python tests.Python tests for test_scaffolding.test_suggestion_parser_scaffolding.executor": "Run",
+    "Python tests.Python tests in intro-testing-ai-apps.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -54,7 +58,7 @@
       <recent name="C:\GitHub\Webinars\intro-testing-ai-apps\d1.brittle_contract" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_scaffolding.test_suggestion_parser_scaffolding">
+  <component name="RunManager" selected="Python tests.Python tests in intro-testing-ai-apps">
     <configuration name="Python tests for test_brittle_contract.test_get_testing_suggestions_returns_exactly_five_suggestions" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="intro-testing-ai-apps" />
       <option name="ENV_FILES" value="" />
@@ -67,6 +71,36 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;test_brittle_contract.test_get_testing_suggestions_returns_exactly_five_suggestions&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_plumbing.test_plumbing_handles_api_error_gracefully" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="intro-testing-ai-apps" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_plumbing.test_plumbing_handles_api_error_gracefully&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for test_plumbing.test_plumbing_handles_garbage_response" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="intro-testing-ai-apps" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_plumbing.test_plumbing_handles_garbage_response&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -85,8 +119,26 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests in intro-testing-ai-apps" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="intro-testing-ai-apps" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests in intro-testing-ai-apps" />
+        <item itemvalue="Python tests.Python tests for test_plumbing.test_plumbing_handles_garbage_response" />
+        <item itemvalue="Python tests.Python tests for test_plumbing.test_plumbing_handles_api_error_gracefully" />
         <item itemvalue="Python tests.Python tests for test_scaffolding.test_suggestion_parser_scaffolding" />
         <item itemvalue="Python tests.Python tests for test_brittle_contract.test_get_testing_suggestions_returns_exactly_five_suggestions" />
       </list>
@@ -131,24 +183,22 @@
       <option name="project" value="LOCAL" />
       <updated>1755335966501</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2nd test">
+      <option name="closed" value="true" />
+      <created>1755351860232</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1755351860232</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1st test passing" />
     <MESSAGE value="added reqs." />
     <MESSAGE value="pytest runs from cli" />
-    <option name="LAST_COMMIT_MESSAGE" value="pytest runs from cli" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/APIAnalysisAgent.py</url>
-          <line>27</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="2nd test" />
+    <option name="LAST_COMMIT_MESSAGE" value="2nd test" />
   </component>
 </project>

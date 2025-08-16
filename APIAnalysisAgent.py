@@ -40,7 +40,12 @@ class APIAnalysisAgent:
         Focus on practical tests that would catch real issues.
         """
         system_instruction = "You are an expert API tester. Generate practical test scenarios."
-        response_text = self._generate_content(prompt, system_instruction)
+
+        try:
+            response_text = self._generate_content(prompt, system_instruction)
+        except exceptions.GoogleAPICallError as e:
+            print(f"An API error occurred while generating suggestions: {e}")
+            return []
 
         if not response_text:
             return []

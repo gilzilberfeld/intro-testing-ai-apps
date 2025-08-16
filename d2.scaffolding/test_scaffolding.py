@@ -2,7 +2,7 @@ from unittest.mock import patch
 from APIAnalysisAgent import APIAnalysisAgent
 
 def test_suggestion_parser_scaffolding():
-    # 1. SETUP: Create an agent and define a mock AI response.
+
     agent = APIAnalysisAgent(api_key="fake_key")
     mock_endpoint_info = {
         'method': '',
