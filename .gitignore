@@ -212,7 +212,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-d1.brittle_contract/.env
+.env
 .venv
 env/
 venv/

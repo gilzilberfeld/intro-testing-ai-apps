@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ed93b62-8c15-481b-8ca4-cdffb926d090" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/intro-testing-ai-apps.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/d1.brittle_contract/APIAnalysisAgent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/d1.brittle_contract/test_brittle_contract.py" afterDir="false" />
+    <list default="true" id="9ed93b62-8c15-481b-8ca4-cdffb926d090" name="Changes" comment="added reqs.">
+      <change afterPath="$PROJECT_DIR$/conftest.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d1.brittle_contract/APIAnalysisAgent.py" beforeDir="false" afterPath="$PROJECT_DIR$/APIAnalysisAgent.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d1.brittle_contract/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d1.brittle_contract/test_brittle_contract.py" beforeDir="false" afterPath="$PROJECT_DIR$/d1.brittle_contract/test_brittle_contract.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +50,12 @@
     &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\GitHub\Webinars\intro-testing-ai-apps" />
+      <recent name="C:\GitHub\Webinars\intro-testing-ai-apps\d1.brittle_contract" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Python tests for test_brittle_contract.test_get_testing_suggestions_returns_exactly_five_suggestions" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="intro-testing-ai-apps" />
@@ -91,6 +93,38 @@
       <option name="presentableId" value="Default" />
       <updated>1755332222748</updated>
     </task>
+    <task id="LOCAL-00001" summary="1st test passing">
+      <option name="closed" value="true" />
+      <created>1755335137275</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1755335137275</updated>
+    </task>
+    <task id="LOCAL-00002" summary="added reqs.">
+      <option name="closed" value="true" />
+      <created>1755335177740</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1755335177740</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1st test passing" />
+    <MESSAGE value="added reqs." />
+    <option name="LAST_COMMIT_MESSAGE" value="added reqs." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/APIAnalysisAgent.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
