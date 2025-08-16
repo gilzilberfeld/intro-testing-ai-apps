@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ed93b62-8c15-481b-8ca4-cdffb926d090" name="Changes" comment="2nd test">
-      <change afterPath="$PROJECT_DIR$/d3.plumbing/test_plumbing.py" afterDir="false" />
+    <list default="true" id="9ed93b62-8c15-481b-8ca4-cdffb926d090" name="Changes" comment="Error handling - code and tests">
+      <change afterPath="$PROJECT_DIR$/d4.resilient_properties/test_resilient_properties.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/APIAnalysisAgent.py" beforeDir="false" afterPath="$PROJECT_DIR$/APIAnalysisAgent.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/d2.scaffolding/test_scaffolding.py" beforeDir="false" afterPath="$PROJECT_DIR$/d2.scaffolding/test_scaffolding.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,11 +38,15 @@
   "keyToString": {
     "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python tests.Python tests for d4_resilient_properties.test_resilient_properties.test_get_testing_suggestions_has_good_properties.executor": "Run",
     "Python tests.Python tests for test_brittle_contract.test_get_testing_suggestions_returns_exactly_five_suggestions.executor": "Run",
-    "Python tests.Python tests for test_plumbing.test_plumbing_handles_api_error_gracefully.executor": "Debug",
+    "Python tests.Python tests for test_plumbing.test_plumbing_handles_api_error_gracefully.executor": "Run",
     "Python tests.Python tests for test_plumbing.test_plumbing_handles_garbage_response.executor": "Run",
+    "Python tests.Python tests for test_resilient_properties.test_get_testing_suggestions_has_good_properties.executor": "Run",
     "Python tests.Python tests for test_scaffolding.test_suggestion_parser_scaffolding.executor": "Run",
     "Python tests.Python tests in intro-testing-ai-apps.executor": "Run",
+    "Python.test.resilient_properties (1).executor": "Run",
+    "Python.test.resilient_properties.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -58,8 +60,52 @@
       <recent name="C:\GitHub\Webinars\intro-testing-ai-apps\d1.brittle_contract" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests in intro-testing-ai-apps">
-    <configuration name="Python tests for test_brittle_contract.test_get_testing_suggestions_returns_exactly_five_suggestions" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Python tests for test_resilient_properties.test_get_testing_suggestions_has_good_properties">
+    <configuration name="test.resilient_properties" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="intro-testing-ai-apps" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/d4.resilient_properties" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/d4.resilient_properties/test.resilient_properties.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_resilient_properties" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="intro-testing-ai-apps" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/d4_resilient_properties" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\GitHub\Webinars\intro-testing-ai-apps\d4_resilient_properties\test_resilient_properties.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Python tests for d4_resilient_properties.test_resilient_properties.test_get_testing_suggestions_has_good_properties" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="intro-testing-ai-apps" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -70,11 +116,11 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_brittle_contract.test_get_testing_suggestions_returns_exactly_five_suggestions&quot;" />
+      <option name="_new_target" value="&quot;d4_resilient_properties.test_resilient_properties.test_get_testing_suggestions_has_good_properties&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_plumbing.test_plumbing_handles_api_error_gracefully" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+    <configuration name="Python tests for test_resilient_properties.test_get_testing_suggestions_has_good_properties" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="intro-testing-ai-apps" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -85,37 +131,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_plumbing.test_plumbing_handles_api_error_gracefully&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_plumbing.test_plumbing_handles_garbage_response" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="intro-testing-ai-apps" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_plumbing.test_plumbing_handles_garbage_response&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for test_scaffolding.test_suggestion_parser_scaffolding" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="intro-testing-ai-apps" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_scaffolding.test_suggestion_parser_scaffolding&quot;" />
+      <option name="_new_target" value="&quot;test_resilient_properties.test_get_testing_suggestions_has_good_properties&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -136,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_resilient_properties.test_get_testing_suggestions_has_good_properties" />
         <item itemvalue="Python tests.Python tests in intro-testing-ai-apps" />
-        <item itemvalue="Python tests.Python tests for test_plumbing.test_plumbing_handles_garbage_response" />
-        <item itemvalue="Python tests.Python tests for test_plumbing.test_plumbing_handles_api_error_gracefully" />
-        <item itemvalue="Python tests.Python tests for test_scaffolding.test_suggestion_parser_scaffolding" />
-        <item itemvalue="Python tests.Python tests for test_brittle_contract.test_get_testing_suggestions_returns_exactly_five_suggestions" />
+        <item itemvalue="Python tests.Python tests for d4_resilient_properties.test_resilient_properties.test_get_testing_suggestions_has_good_properties" />
+        <item itemvalue="Python.test_resilient_properties" />
+        <item itemvalue="Python.test.resilient_properties" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755351860232</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Error handling - code and tests">
+      <option name="closed" value="true" />
+      <created>1755353173030</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1755353173030</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -199,6 +223,7 @@
     <MESSAGE value="added reqs." />
     <MESSAGE value="pytest runs from cli" />
     <MESSAGE value="2nd test" />
-    <option name="LAST_COMMIT_MESSAGE" value="2nd test" />
+    <MESSAGE value="Error handling - code and tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Error handling - code and tests" />
   </component>
 </project>
