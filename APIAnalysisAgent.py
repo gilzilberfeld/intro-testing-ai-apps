@@ -60,9 +60,6 @@ class APIAnalysisAgent:
         return suggestions[:5]
 
     def get_testing_suggestions_structured(self, endpoint_info):
-        """
-        Generate specific testing suggestions for an endpoint as a structured JSON object.
-        """
         prompt = f"""
         Generate 5 specific test scenarios for this API endpoint:
 
@@ -72,7 +69,8 @@ class APIAnalysisAgent:
 
         Return the response as a single, valid JSON object.
         The JSON object should have one key: "suggestions".
-        The value for "suggestions" should be an array of strings, where each string is a test scenario name.
+        The value for "suggestions" should be an array of strings,
+        where each string is a test scenario name.
 
         Return ONLY the JSON object and nothing else.
         """
@@ -89,12 +87,10 @@ class APIAnalysisAgent:
             return {"suggestions": []}
 
     def rank_testing_suggestions(self, suggestions, golden_concepts):
-        """
-        Uses an AI Judge to rank a list of suggestions based on importance,
-        guided by a set of golden concepts.
-        """
         prompt = f"""
-        You are an expert test analyst. Your task is to rank the following test suggestions based on their importance for ensuring API quality.
+        You are an expert test analyst. 
+        Your task is to rank the following test suggestions based on their 
+        importance for ensuring API quality.
 
         Here are the most critical test concepts to prioritize:
         {', '.join(golden_concepts)}

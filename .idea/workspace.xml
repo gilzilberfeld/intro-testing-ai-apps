@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ed93b62-8c15-481b-8ca4-cdffb926d090" name="Changes" comment="test 8.">
-      <change afterPath="$PROJECT_DIR$/d9.diversity/test_diversity.py" afterDir="false" />
+    <list default="true" id="9ed93b62-8c15-481b-8ca4-cdffb926d090" name="Changes" comment="test 9.">
+      <change afterPath="$PROJECT_DIR$/d10.ai_ranking/ai_ranking.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/d10.ai_ranking/test_ranking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/APIAnalysisAgent.py" beforeDir="false" afterPath="$PROJECT_DIR$/APIAnalysisAgent.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +67,7 @@
       <recent name="C:\GitHub\Webinars\intro-testing-ai-apps\d1.brittle_contract" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Python tests for test_diversity.test_more_diversity">
+  <component name="RunManager" selected="Python tests.Python tests for test_ranking.test_rank_suggestions_by_importance">
     <configuration name="Python tests for test_advanced_content.test_advanced_content_validation" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="intro-testing-ai-apps" />
       <option name="ENV_FILES" value="" />
@@ -110,6 +113,21 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="Python tests for test_ranking.test_rank_suggestions_by_importance" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
+      <module name="intro-testing-ai-apps" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_ranking.test_rank_suggestions_by_importance&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
     <configuration name="Python tests for test_sanity_check.test_structured_suggestions_have_relevant_content" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
       <module name="intro-testing-ai-apps" />
       <option name="ENV_FILES" value="" />
@@ -125,28 +143,13 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Python tests for test_structured_response.test_get_structured_suggestions_has_valid_schema" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="intro-testing-ai-apps" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_structured_response.test_get_structured_suggestions_has_valid_schema&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Python tests for test_ranking.test_rank_suggestions_by_importance" />
         <item itemvalue="Python tests.Python tests for test_diversity.test_more_diversity" />
         <item itemvalue="Python tests.Python tests for test_golden_dataset.test_suggestions_meet_golden_dataset_benchmark" />
         <item itemvalue="Python tests.Python tests for test_advanced_content.test_advanced_content_validation" />
         <item itemvalue="Python tests.Python tests for test_sanity_check.test_structured_suggestions_have_relevant_content" />
-        <item itemvalue="Python tests.Python tests for test_structured_response.test_get_structured_suggestions_has_valid_schema" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +256,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755355990174</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="test 9.">
+      <option name="closed" value="true" />
+      <created>1755356523535</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1755356523536</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -267,6 +278,7 @@
     <MESSAGE value="test 6." />
     <MESSAGE value="test 7." />
     <MESSAGE value="test 8." />
-    <option name="LAST_COMMIT_MESSAGE" value="test 8." />
+    <MESSAGE value="test 9." />
+    <option name="LAST_COMMIT_MESSAGE" value="test 9." />
   </component>
 </project>
