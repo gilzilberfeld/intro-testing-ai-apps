@@ -5,7 +5,7 @@ from config import GEMINI_API_KEY
 from utils import sample_endpoint
 def test_flash_model_ranking_aligns_with_pro_model_benchmark():
     primary_agent = APIAnalysisAgent(api_key=GEMINI_API_KEY, model_name='gemini-1.5-flash-latest')
-    judge_agent = APIAnalysisAgent(api_key=GEMINI_API_KEY, model_name='gemini-1.5-pro-latest')
+    judge_agent = APIAnalysisAgent(api_key=GEMINI_API_KEY, model_name='gemini-1.5-pro')
 
     golden_concepts = ["non-existent id", "invalid id"]
 

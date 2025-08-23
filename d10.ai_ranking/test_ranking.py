@@ -31,13 +31,13 @@ def test_rank_suggestions_by_importance():
         s_lower = suggestion.lower()
         if ("non-existent" in s_lower or "not found" in s_lower) and critical_case_rank == -1:
             critical_case_rank = i
-        if ("valid" in s_lower) and valid_case_rank == -1:
+        if ("valid" in s_lower or "existing" in s_lower) and valid_case_rank == -1:
             valid_case_rank = i
         if ("invalid" in s_lower or "incorrect" in s_lower) and invalid_case_rank == -1:
             invalid_case_rank = i
 
     print(f"Rank of critical 'non-existent' case: {critical_case_rank}")
-    print(f"Rank of first 'valid' case: {valid_case_rank}")
+    print(f"Rank of first valid 'existing' case: {valid_case_rank}")
     print(f"Rank of first 'invalid' case: {invalid_case_rank}")
 
     # Critical case should be in the top half of the list.
