@@ -4,10 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ed93b62-8c15-481b-8ca4-cdffb926d090" name="Changes" comment="fixed concepts">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/d2.plumbing/test_plumbing.py" beforeDir="false" afterPath="$PROJECT_DIR$/d2.plumbing/test_plumbing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/d9.golden_dataset/test_golden_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/d9.golden_dataset/test_golden_dataset.py" afterDir="false" />
+    <list default="true" id="9ed93b62-8c15-481b-8ca4-cdffb926d090" name="Changes" comment="fixed tests">
+      <change beforePath="$PROJECT_DIR$/d1.scaffolding/test_scaffolding.py" beforeDir="false" afterPath="$PROJECT_DIR$/c1_our_code/d1.scaffolding/test_scaffolding.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d10.ai_ranking/ai_ranking.md" beforeDir="false" afterPath="$PROJECT_DIR$/c4_ranking/d10.ai_ranking/ai_ranking.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d10.ai_ranking/test_ranking.py" beforeDir="false" afterPath="$PROJECT_DIR$/c4_ranking/d10.ai_ranking/test_ranking.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d11.the_judge/test_the_judge.py" beforeDir="false" afterPath="$PROJECT_DIR$/c4_ranking/d11.the_judge/test_the_judge.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d2.plumbing/test_plumbing.py" beforeDir="false" afterPath="$PROJECT_DIR$/c1_our_code/d2.plumbing/test_plumbing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d3.brittle_contract/test_brittle_contract.py" beforeDir="false" afterPath="$PROJECT_DIR$/c2_properties/d3.brittle_contract/test_brittle_contract.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d4.resilient_properties/test_resilient_properties.py" beforeDir="false" afterPath="$PROJECT_DIR$/c2_properties/d4.resilient_properties/test_resilient_properties.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d5.structured_response/test_structured_response.py" beforeDir="false" afterPath="$PROJECT_DIR$/c3_the_content/d5.structured_response/test_structured_response.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d6.sanity_check/test_sanity_check.py" beforeDir="false" afterPath="$PROJECT_DIR$/c3_the_content/d6.sanity_check/test_sanity_check.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d7.advanced_content/test_advanced_content.py" beforeDir="false" afterPath="$PROJECT_DIR$/c3_the_content/d7.advanced_content/test_advanced_content.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d8.diversity/test_diversity.py" beforeDir="false" afterPath="$PROJECT_DIR$/c3_the_content/d8.diversity/test_diversity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/d9.golden_dataset/golden_dataset.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/d9.golden_dataset/test_golden_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/c4_ranking/d9.golden_dataset/test_golden_dataset.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -317,7 +327,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756546039071</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="fixed tests">
+      <option name="closed" value="true" />
+      <created>1756547052528</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1756547052528</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -337,13 +355,14 @@
     <MESSAGE value="Couple of modifications" />
     <MESSAGE value="Reorder, change Jude model" />
     <MESSAGE value="fixed concepts" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed concepts" />
+    <MESSAGE value="fixed tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed tests" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/d11.the_judge/test_the_judge.py</url>
+          <url>file://$PROJECT_DIR$/c4_ranking/d11.the_judge/test_the_judge.py</url>
           <line>21</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
