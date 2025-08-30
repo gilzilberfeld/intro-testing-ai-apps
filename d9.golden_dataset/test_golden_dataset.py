@@ -33,3 +33,5 @@ def test_suggestions_meet_golden_dataset_benchmark():
 
     assert not missing_concepts, \
         f"The AI response is missing key concepts from the Golden Dataset: {missing_concepts}"
+
+    # TODO: Add a real call and check against the golden dataset

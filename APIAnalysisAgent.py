@@ -11,15 +11,6 @@ class APIAnalysisAgent:
         self.model_name = model_name
         self.config = types.GenerationConfig(max_output_tokens=400)
 
-    def _generate_content(self, prompt_text, system_instruction):
-        """A private helper method to handle AI content generation and errors."""
-        try:
-            model = genai.GenerativeModel(self.model_name, system_instruction=system_instruction)
-            response = model.generate_content(prompt_text, generation_config=self.config)
-            return response.text
-        except (exceptions.GoogleAPICallError, exceptions.RetryError, ValueError) as e:
-            print(f"An API error occurred with model {self.model_name}: {e}")
-            return ""  # Return an empty string on failure
 
     def get_testing_suggestions(self, endpoint_info):
         """
@@ -58,6 +49,16 @@ class APIAnalysisAgent:
                 suggestions.append(test_name)
 
         return suggestions[:5]
+
+    def _generate_content(self, prompt_text, system_instruction):
+        """A private helper method to handle AI content generation and errors."""
+        try:
+            model = genai.GenerativeModel(self.model_name, system_instruction=system_instruction)
+            response = model.generate_content(prompt_text, generation_config=self.config)
+            return response.text
+        except (exceptions.GoogleAPICallError, exceptions.RetryError, ValueError) as e:
+            print(f"An API error occurred with model {self.model_name}: {e}")
+            return ""  # Return an empty string on failure
 
     def get_testing_suggestions_structured(self, endpoint_info):
         prompt = f"""

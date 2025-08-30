@@ -23,6 +23,7 @@ def test_plumbing_handles_api_error_gracefully(agent, mock_endpoint_info):
 
     assert suggestions == []
 
+
 def test_plumbing_handles_garbage_response(agent, mock_endpoint_info):
     mock_response = "I'm sorry Dave, I'm afraid I can't do that."
     with patch.object(agent, '_generate_content',
@@ -30,3 +31,5 @@ def test_plumbing_handles_garbage_response(agent, mock_endpoint_info):
         suggestions = agent.get_testing_suggestions(endpoint_info=mock_endpoint_info)
 
     assert suggestions == []
+
+# TODO: Replace this with calling the internal method directly

@@ -5,7 +5,8 @@ from config import GEMINI_API_KEY
 from utils import sample_endpoint
 def test_flash_model_ranking_aligns_with_pro_model_benchmark():
     primary_agent = APIAnalysisAgent(api_key=GEMINI_API_KEY, model_name='gemini-1.5-flash-latest')
-    judge_agent = APIAnalysisAgent(api_key=GEMINI_API_KEY, model_name='gemini-1.5-pro')
+    #TODO Fix this
+    judge_agent = APIAnalysisAgent(api_key=GEMINI_API_KEY, model_name='gemini-2.5-pro')
 
     golden_concepts = ["non-existent id", "invalid id"]
 
@@ -22,7 +23,7 @@ def test_flash_model_ranking_aligns_with_pro_model_benchmark():
     judge_ranking = judge_ranked_response.get("ranked_suggestions", [])
 
     print(f"\nPrimary Model Ranking:\n{json.dumps(primary_ranking, indent=2)}")
-    print(f"\nJudge Model Ranking (our 'Ground Truth'):\n{json.dumps(judge_ranking, indent=2)}")
+    print(f"\nJudge Model Ranking (our 'Truth'):\n{json.dumps(judge_ranking, indent=2)}")
 
     assert judge_ranking, "Judge model must provide a benchmark ranking."
     assert primary_ranking, "Primary model must provide a ranking to evaluate."

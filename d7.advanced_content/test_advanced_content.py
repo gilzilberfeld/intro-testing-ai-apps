@@ -8,6 +8,7 @@ from utils import sample_endpoint
 
 def test_advanced_content_validation():
     response_json = agent.get_testing_suggestions_structured(sample_endpoint)
+    print(f"AI returned JSON: {json.dumps(response_json, indent=2)}")
 
     suggestions = response_json["suggestions"]
     all_suggestions_text = " ".join(suggestions).lower()
