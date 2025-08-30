@@ -15,14 +15,12 @@ def mock_endpoint_info():
         'description': ''
     }
 
-def test_plumbing_handles_api_error_gracefully(agent, mock_endpoint_info):
-    # Throw an error when trying to generate content
-    with patch.object(agent, '_generate_content',
-                      side_effect=exceptions.GoogleAPICallError("API is down")):
-        suggestions = agent.get_testing_suggestions(endpoint_info=mock_endpoint_info)
 
-    assert suggestions == []
-
+def test_plumbing_generate_content_handles_garbage_response(agent, mock_endpoint_info):
+    mock_response = "I'm sorry Dave, I'm afraid I can't do that."
+    with patch.object(agent, '_call_model_api', return_value=mock_response):
+        result = agent._generate_content(endpoint_info=mock_endpoint_info)
+    assert result == []
 
 def test_plumbing_handles_garbage_response(agent, mock_endpoint_info):
     mock_response = "I'm sorry Dave, I'm afraid I can't do that."
@@ -32,4 +30,10 @@ def test_plumbing_handles_garbage_response(agent, mock_endpoint_info):
 
     assert suggestions == []
 
-# TODO: Replace this with calling the internal method directly
+def test_plumbing_handles_api_error_gracefully(agent, mock_endpoint_info):
+    # Throw an error when trying to generate content
+    with patch.object(agent, '_generate_content',
+                      side_effect=exceptions.GoogleAPICallError("API is down")):
+        suggestions = agent.get_testing_suggestions(endpoint_info=mock_endpoint_info)
+
+    assert suggestions == []
