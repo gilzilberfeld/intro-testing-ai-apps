@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9ed93b62-8c15-481b-8ca4-cdffb926d090" name="Changes" comment="fixed tests">
-      <change beforePath="$PROJECT_DIR$/d1.scaffolding/test_scaffolding.py" beforeDir="false" afterPath="$PROJECT_DIR$/c1_our_code/d1.scaffolding/test_scaffolding.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/d10.ai_ranking/ai_ranking.md" beforeDir="false" afterPath="$PROJECT_DIR$/c4_ranking/d10.ai_ranking/ai_ranking.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/d10.ai_ranking/test_ranking.py" beforeDir="false" afterPath="$PROJECT_DIR$/c4_ranking/d10.ai_ranking/test_ranking.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/d11.the_judge/test_the_judge.py" beforeDir="false" afterPath="$PROJECT_DIR$/c4_ranking/d11.the_judge/test_the_judge.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/d2.plumbing/test_plumbing.py" beforeDir="false" afterPath="$PROJECT_DIR$/c1_our_code/d2.plumbing/test_plumbing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/d3.brittle_contract/test_brittle_contract.py" beforeDir="false" afterPath="$PROJECT_DIR$/c2_properties/d3.brittle_contract/test_brittle_contract.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/d4.resilient_properties/test_resilient_properties.py" beforeDir="false" afterPath="$PROJECT_DIR$/c2_properties/d4.resilient_properties/test_resilient_properties.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/d5.structured_response/test_structured_response.py" beforeDir="false" afterPath="$PROJECT_DIR$/c3_the_content/d5.structured_response/test_structured_response.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/d6.sanity_check/test_sanity_check.py" beforeDir="false" afterPath="$PROJECT_DIR$/c3_the_content/d6.sanity_check/test_sanity_check.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/d7.advanced_content/test_advanced_content.py" beforeDir="false" afterPath="$PROJECT_DIR$/c3_the_content/d7.advanced_content/test_advanced_content.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/d8.diversity/test_diversity.py" beforeDir="false" afterPath="$PROJECT_DIR$/c3_the_content/d8.diversity/test_diversity.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/d9.golden_dataset/golden_dataset.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/d9.golden_dataset/test_golden_dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/c4_ranking/d9.golden_dataset/test_golden_dataset.py" afterDir="false" />
-    </list>
+    <list default="true" id="9ed93b62-8c15-481b-8ca4-cdffb926d090" name="Changes" comment="Re-order" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,37 +43,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python tests.Python tests for d4_resilient_properties.test_resilient_properties.test_get_testing_suggestions_has_good_properties.executor": "Run",
-    "Python tests.Python tests for test_advanced_content.test_advanced_content_validation.executor": "Run",
-    "Python tests.Python tests for test_brittle_contract.test_get_testing_suggestions_returns_exactly_five_suggestions.executor": "Run",
-    "Python tests.Python tests for test_diversity.test_more_diversity.executor": "Run",
-    "Python tests.Python tests for test_golden_dataset.test_suggestions_meet_golden_dataset_benchmark.executor": "Run",
-    "Python tests.Python tests for test_plumbing.test_plumbing_handles_api_error_gracefully.executor": "Run",
-    "Python tests.Python tests for test_plumbing.test_plumbing_handles_garbage_response.executor": "Run",
-    "Python tests.Python tests for test_ranking.test_rank_suggestions_by_importance.executor": "Run",
-    "Python tests.Python tests for test_resilient_properties.test_get_testing_suggestions_has_good_properties.executor": "Run",
-    "Python tests.Python tests for test_sanity_check.test_structured_suggestions_have_relevant_content.executor": "Run",
-    "Python tests.Python tests for test_scaffolding.test_suggestion_parser_scaffolding.executor": "Run",
-    "Python tests.Python tests for test_structured_response.test_get_structured_suggestions_has_valid_schema.executor": "Run",
-    "Python tests.Python tests for test_the_judge.test_flash_model_ranking_aligns_with_pro_model_benchmark.executor": "Run",
-    "Python tests.Python tests in intro-testing-ai-apps.executor": "Run",
-    "Python.test.resilient_properties (1).executor": "Run",
-    "Python.test.resilient_properties.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests for d4_resilient_properties.test_resilient_properties.test_get_testing_suggestions_has_good_properties.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_advanced_content.test_advanced_content_validation.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_brittle_contract.test_get_testing_suggestions_returns_exactly_five_suggestions.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_diversity.test_more_diversity.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_golden_dataset.test_suggestions_meet_golden_dataset_benchmark.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_plumbing.test_plumbing_handles_api_error_gracefully.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_plumbing.test_plumbing_handles_garbage_response.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_ranking.test_rank_suggestions_by_importance.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_resilient_properties.test_get_testing_suggestions_has_good_properties.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_sanity_check.test_structured_suggestions_have_relevant_content.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_scaffolding.test_suggestion_parser_scaffolding.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_structured_response.test_get_structured_suggestions_has_valid_schema.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests for test_the_judge.test_flash_model_ranking_aligns_with_pro_model_benchmark.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in intro-testing-ai-apps.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.resilient_properties (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.resilient_properties.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\GitHub\Webinars\intro-testing-ai-apps\c4_ranking" />
+      <recent name="C:\GitHub\Webinars\intro-testing-ai-apps\c3_the_content" />
+      <recent name="C:\GitHub\Webinars\intro-testing-ai-apps\c2_properties" />
+      <recent name="C:\GitHub\Webinars\intro-testing-ai-apps\c1_our_code" />
       <recent name="C:\GitHub\Webinars\intro-testing-ai-apps" />
-      <recent name="C:\GitHub\Webinars\intro-testing-ai-apps\d1.brittle_contract" />
     </key>
   </component>
   <component name="RunManager" selected="Python tests.Python tests for test_the_judge.test_flash_model_ranking_aligns_with_pro_model_benchmark">
@@ -335,7 +324,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756547052528</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Re-order">
+      <option name="closed" value="true" />
+      <created>1756547447672</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1756547447672</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -356,13 +353,14 @@
     <MESSAGE value="Reorder, change Jude model" />
     <MESSAGE value="fixed concepts" />
     <MESSAGE value="fixed tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed tests" />
+    <MESSAGE value="Re-order" />
+    <option name="LAST_COMMIT_MESSAGE" value="Re-order" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/c4_ranking/d11.the_judge/test_the_judge.py</url>
+          <url>file://$PROJECT_DIR$/c4_grading/d11.the_judge/test_the_judge.py</url>
           <line>21</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
