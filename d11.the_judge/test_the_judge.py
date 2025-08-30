@@ -5,12 +5,12 @@ from config import GEMINI_API_KEY
 from utils import sample_endpoint
 def test_flash_model_ranking_aligns_with_pro_model_benchmark():
     primary_agent = APIAnalysisAgent(api_key=GEMINI_API_KEY, model_name='gemini-1.5-flash-latest')
-    #TODO Fix this
-    judge_agent = APIAnalysisAgent(api_key=GEMINI_API_KEY, model_name='gemini-2.5-pro')
+    judge_agent = APIAnalysisAgent(api_key=GEMINI_API_KEY, model_name='gemini-2.5-Pro')
 
-    golden_concepts = ["non-existent id", "invalid id"]
+    golden_concepts = ["non-existent user", "invalid user"]
 
     initial_response = primary_agent.get_testing_suggestions_structured(sample_endpoint)
+
     suggestions_to_rank = initial_response.get("suggestions", [])
     assert len(suggestions_to_rank) >= 3, "Need at least 3 suggestions to rank."
 
